@@ -1,0 +1,26 @@
+{
+  "name": "mongo-dbspiking",
+  "version": "1.0.0",
+  "description": "- install instructions     https://www.mongodb.com/docs/manual/administration/install-community/ - Can be done globally or in selected repo - To stop a mongod running as a background process, connect to the mongod using mongosh, and issue the shutdown command as needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellamarym/Mongo-dbSpiking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellamarym/Mongo-dbSpiking/issues"
+  },
+  "homepage": "https://github.com/ellamarym/Mongo-dbSpiking#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
