@@ -4,7 +4,7 @@
   "description": "- install instructions     https://www.mongodb.com/docs/manual/administration/install-community/ - Can be done globally or in selected repo - To stop a mongod running as a background process, connect to the mongod using mongosh, and issue the shutdown command as needed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mocha": "^10.2.0",
     "mongoose": "^6.8.0",
     "nodemon": "^2.0.20"
   }

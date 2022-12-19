@@ -26,3 +26,12 @@
     mongoose : allows js to interact with mongoDb
 - npm i -d dotenv nodemon
 - scripts
+
+# TESTING
+
+install mocha
+npm install mocha --save
+require 'assert' at the top of testing file
+must be an it not a test
+change test script to "test" : "mocha"
+npm run test
